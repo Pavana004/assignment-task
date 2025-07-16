@@ -41,7 +41,7 @@ const Section_5 = () => {
       <div className=" w-[78%] pt-10 h-[130px] text-[32px] font-bold flex mx-auto mt-5  ">
         <h1>Fresh Ideas to Help You Reach New Heights.</h1>
       </div>
-      <div className=" w-[90%] flex justify-center py-10 gap-12 mx-auto">
+      <div className=" w-[90%] lg:flex justify-center py-10 lg:gap-12  mx-auto">
         {data.map((item) => {
           return (
             <div

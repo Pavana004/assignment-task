@@ -34,12 +34,12 @@ const Section_2 = () => {
   };
 
   return (
-    <div className="w-full flex  ">
-      <div className="w-[90%] flex justify-center pt-10 pb-10  ">
-        <div className="w-[50%]  flex justify-center pl-10 ">
+    <div className="w-full flex md:w-full lg:w-full  ">
+      <div className="w-[90%] md:w-[90%] lg:w-[90%] lg:flex justify-center pt-10 pb-10  ">
+        <div className="w-[50%]  flex mx-auto lg:justify-center pl-10 ">
           <img src={section_2Img} alt="sec-2" className="w-[550px] h-[430px]" />
         </div>
-        <div className="w-[40%] grid grid-cols-2 gap-10 ">
+        <div className="w-[40%] grid grid-cols-1 mx-auto lg:grid-cols-2 gap-10 ">
           {data.map((res) => {
             return (
               <div className="group w-[256px] h-[304px] transition-colors cursor-pointer bg-white duration-300 ease-in-out hover:bg-[#E8505E]  border-[2px] border-black rounded-lg p-3 relative">
@@ -51,7 +51,7 @@ const Section_2 = () => {
                   className="w-[75px] h-[40px] bg-[#E8505E] group-hover:bg-white  absolute bottom-0 right-0 rounded flex justify-center items-center"
                 >
                   <svg
-                    className="w-6 h-6 text-white group-hover:text-black transition-all duration-300"
+                    className="w-10 h-6 text-white group-hover:text-black transition-all duration-300"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

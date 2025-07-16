@@ -2,8 +2,8 @@ import React from "react";
 
 const Section_3 = () => {
   return (
-    <div className="container w-full h-[993px] bg-[#ECECEC] overflow-hidden">
-      <div className=" w-[78%] pt-10 h-[180px] text-[32px] font-bold flex mx-auto  ">
+    <div className="container w-full md:w-full lg:w-full lg:h-[993px] bg-[#ECECEC] lg:overflow-hidden">
+      <div className=" w-[78%] pt-10 h-[180px] text-[25px] lg:text-[32px] font-bold flex mx-auto  ">
         <h1>
           We're a full-service B2B market research thought partner committed to
           strengthening your strategies with deep, subject matter expertise.
@@ -11,7 +11,7 @@ const Section_3 = () => {
       </div>
 
       <div className="flex flex-col gap-4">
-        <div className=" w-[78%]  flex mx-auto  ">
+        <div className=" w-[78%]  lg:flex lg:mx-auto  ">
           <div className="w-[370px] h-[379px] bg-section-1-bg p-10 flex flex-col gap-2 rounded">
             <h2 className="font-semibold text-[16px]">
               Branding and Advertising Communication
@@ -67,7 +67,7 @@ const Section_3 = () => {
           </div>
         </div>
 
-        <div className=" w-[78%] flex mx-auto gap-3  ">
+        <div className=" w-[78%] lg:flex lg:mx-auto gap-3  ">
           <div className="w-[744px] h-[379px] bg-section-3-bg p-10 rounded-sm flex justify-between ">
             <div className="w-[421px] flex flex-col gap-2 mt-10">
               <div className="w-[139px]">
@@ -126,33 +126,6 @@ const Section_3 = () => {
           </div>
         </div>
       </div>
-
-      {/* <div>
-        <div className="bg-section-3-bg">
-          <h2>Branding and Advertising Communication</h2>
-          <p>
-            We help brands resonate. From brand perception and awareness to
-            message testing and ad effectiveness, our research empowers you to
-            communicate with clarity and impact. Backed by qualitative insights
-            and robust tracking, we ensure your brand voice connects with the
-            right audience.
-          </p>
-          <svg
-            className="w-6 h-6 text-white "
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M14 5l7 7m0 0l-7 7m7-7H3"
-            />
-          </svg>
-        </div>
-      </div> */}
     </div>
   );
 };

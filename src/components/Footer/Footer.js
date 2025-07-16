@@ -113,7 +113,7 @@ const Footer = () => {
       <hr />
       <div className="flex gap-2 text-white mx-auto p-6 w-[80%]  items-center">
         <img src={Copyright} alt="logo" className="w-[14px] h-[14px]" />
-        <p className="text-[12px]">Copyright 2025. All Rights Reserved.</p>
+        <p className="text-[12px]">Copyright 2025. All Rights Reserved.51</p>
       </div>
 
       <div className=" absolute w-[56px] h-[40px] bg-white hover:bg-red-500 hover:text-white opacity-30 bottom-3 right-[2%] flex justify-center items-center">
