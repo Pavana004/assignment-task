@@ -28,10 +28,12 @@
   object-fit: cover;
 }
 
-.swiper-pagination-bullet {
+.swiperCustomCss .swiper-pagination-bullet {
   background-color: #a0a0a0;
+  width: 12px;
+  height: 12px;
 }
 
-.swiper-pagination-bullet-active {
+.swiperCustomCss .swiper-pagination-bullet-active {
   background-color: #e8505e;
 }

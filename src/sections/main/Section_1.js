@@ -13,6 +13,7 @@ const Section_1 = () => {
       effect={"fade"}
       pagination={{ clickable: true }}
       autoplay={{ delay: 1000 }}
+      className="swiperCustomCss"
     >
       <SwiperSlide className=" relative">
         <img src={carousel_1} alt="c-1" />

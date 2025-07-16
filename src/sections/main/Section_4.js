@@ -64,7 +64,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_1} alt="img-1" />
+            <img src={img_1} alt="img-1" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
@@ -106,7 +106,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_2} alt="img-2" />
+            <img src={img_2} alt="img-2" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
@@ -147,7 +147,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_3} alt="img-3" />
+            <img src={img_3} alt="img-3" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
@@ -185,7 +185,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_4} alt="img-4" />
+            <img src={img_4} alt="img-4" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
@@ -225,7 +225,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_5} alt="img-5" />
+            <img src={img_5} alt="img-5" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
@@ -263,7 +263,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_6} alt="img-6" />
+            <img src={img_6} alt="img-6" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
@@ -304,7 +304,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_7} alt="img-7" />
+            <img src={img_7} alt="img-7" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
@@ -347,7 +347,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_8} alt="img-8" />
+            <img src={img_8} alt="img-8" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
@@ -426,7 +426,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_10} alt="img-10" />
+            <img src={img_10} alt="img-10" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
@@ -466,7 +466,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_11} alt="img-11" />
+            <img src={img_11} alt="img-11" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
@@ -509,7 +509,7 @@ const Section_4 = () => {
             </ul>
           </div>
           <div cclassName="w-[50%]">
-            <img src={img_12} alt="img-12" />
+            <img src={img_12} alt="img-12" loading="lazy" />
           </div>
         </div>
         <div className="flex justify-between">
