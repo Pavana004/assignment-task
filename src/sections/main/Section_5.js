@@ -37,11 +37,13 @@ const Section_5 = () => {
   ];
 
   return (
-    <div className=" overflow-hidden bg-[#EAFFD6] mt-4">
-      <div className=" w-[78%] pt-10 h-[130px] text-[16px] lg:text-[32px] font-bold flex mx-auto mt-5  ">
-        <h1>Fresh Ideas to Help You Reach New Heights.</h1>
+    <div className="container overflow-hidden bg-[#EAFFD6] mt-4 ">
+      <div className="w-full lg:w-[80%] xl:w-[80%]  pt-10  h-fit text-[16px] lg:text-[32px] font-bold mx-auto flex justify-center items-center lg:justify-start lg:items-start xl:justify-start xl:items-start mt-5  ">
+        <h1 className="lg:flex lg:justify-start lg:items-start  ">
+          Fresh Ideas to Help You Reach New Heights.
+        </h1>
       </div>
-      <div className=" w-[100%] lg:w-[90%] lg:flex flex justify-center items-center lg:justify-center lg:items-center  lg:mx-auto gap-5 flex-col lg:flex-row  py-10 lg:gap-12   ">
+      <div className="w-full lg:w-[80%] xl:w-[80%] flex justify-center items-center lg:justify-start lg:items-start xl:justify-start xl:items-start   lg:mx-auto gap-5 flex-col lg:flex-row  py-10 lg:gap-12   ">
         {data.map((item) => {
           return (
             <div
