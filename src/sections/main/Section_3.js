@@ -3,7 +3,7 @@ import React from "react";
 const Section_3 = () => {
   return (
     <div className=" w-full md:w-full lg:w-full xl:full  lg:h-[993px] bg-[#ECECEC] lg:overflow-hidden overflow-hidden">
-      <div className=" w-[78%] pt-10 h-[180px] text-[16px] lg:text-[32px] font-bold flex mx-auto  ">
+      <div className=" w-[78%] pt-10 h-[180px] text-[16px] lg:text-[28px] xl:text-[32px] font-bold flex mx-auto  ">
         <h1 className="">
           We're a full-service B2B market research thought partner committed to
           strengthening your strategies with deep, subject matter expertise.
@@ -16,7 +16,7 @@ const Section_3 = () => {
             <h2 className="font-semibold lg:text-[16px]">
               Branding and Advertising Communication
             </h2>
-            <p className="text-[14px] lg:text-[16px]">
+            <p className="text-[14px] lg:text-[14px] xl:text-[16px]">
               We help brands resonate. From brand perception and awareness to
               message testing and ad effectiveness, our research empowers you to
               communicate with clarity and impact. Backed by qualitative
@@ -38,8 +38,8 @@ const Section_3 = () => {
               />
             </svg>
           </div>
-          <div className=" w-[365px] lg:w-[744px] h-[379px] bg-section-2-bg p-10 rounded-sm ">
-            <div className="w-[300px] lg:w-[366px] flex flex-col gap-2 ">
+          <div className=" w-[365px] lg:w-[900px] xl:w-[744px] h-[379px] bg-section-2-bg p-10 rounded-sm">
+            <div className="w-[300px] lg:w-[400px] xl:w-[366px] flex flex-col gap-2 ">
               <h2 className="font-semibold lg:text-[16px]">
                 Market Opportunity Research
               </h2>
