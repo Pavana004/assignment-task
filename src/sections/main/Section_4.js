@@ -36,10 +36,10 @@ const Section_4 = () => {
 
   const contents = {
     1: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto  ">
         <h1 className=" font-bold text-[20px]">FMCG</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between ">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">
               Meet Your Customers' Needs Every Time
             </h2>
@@ -63,8 +63,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_1} alt="img-1" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%] ">
+            <img
+              src={img_1}
+              alt="img-1"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -81,10 +86,10 @@ const Section_4 = () => {
       </div>
     ),
     2: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Retail and Merchandising</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">
               Drive Smarter Decisions on the Shop Floor
             </h2>
@@ -105,8 +110,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_2} alt="img-2" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%]">
+            <img
+              src={img_2}
+              alt="img-2"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -123,10 +133,10 @@ const Section_4 = () => {
       </div>
     ),
     3: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Financial Services</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">
               Build Trust with Every Transaction
             </h2>
@@ -146,8 +156,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_3} alt="img-3" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%] ">
+            <img
+              src={img_3}
+              alt="img-3"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -164,10 +179,10 @@ const Section_4 = () => {
       </div>
     ),
     4: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Insurance</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">
               Simplify the Complex, Earn Customer Confidence
             </h2>
@@ -184,8 +199,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_4} alt="img-4" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%] ">
+            <img
+              src={img_4}
+              alt="img-4"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -202,10 +222,10 @@ const Section_4 = () => {
       </div>
     ),
     5: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Investors</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">See the Market Before It Moves</h2>
             <p>
               Whether you're sizing up a new market or evaluating a venture:
@@ -224,8 +244,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_5} alt="img-5" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%] ">
+            <img
+              src={img_5}
+              alt="img-5"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -242,10 +267,10 @@ const Section_4 = () => {
       </div>
     ),
     6: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Media</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">
               Create Content That Captures Minds
             </h2>
@@ -262,8 +287,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_6} alt="img-6" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%] ">
+            <img
+              src={img_6}
+              alt="img-6"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -280,10 +310,10 @@ const Section_4 = () => {
       </div>
     ),
     7: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Technology</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">
               Design for Humans, Not Just Users
             </h2>
@@ -303,8 +333,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_7} alt="img-7" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%] ">
+            <img
+              src={img_7}
+              alt="img-7"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -321,10 +356,10 @@ const Section_4 = () => {
       </div>
     ),
     8: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Automotive</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">
               From Test Drive to Loyalty — Know the Journey
             </h2>
@@ -346,8 +381,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_8} alt="img-8" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%] ">
+            <img
+              src={img_8}
+              alt="img-8"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -364,10 +404,10 @@ const Section_4 = () => {
       </div>
     ),
     9: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Advertising and Marketing</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">Make Every Message Matter</h2>
             <p>
               Creative is powerful when it connects. Our approach helps you:
@@ -385,7 +425,7 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
+          <div cclassName="w-[100%] lg:w-[50%] ">
             <img src={img_9} alt="img-9" />
           </div>
         </div>
@@ -403,10 +443,10 @@ const Section_4 = () => {
       </div>
     ),
     10: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Human Resources</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">
               Shape Cultures People Want to Belong To
             </h2>
@@ -425,8 +465,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_10} alt="img-10" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%] ">
+            <img
+              src={img_10}
+              alt="img-10"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -443,10 +488,10 @@ const Section_4 = () => {
       </div>
     ),
     11: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Education</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">Design Learning That Sticks</h2>
             <p>
               From students to institutions, we uncover insights that improve
@@ -465,8 +510,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_11} alt="img-11" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%] ">
+            <img
+              src={img_11}
+              alt="img-11"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -483,10 +533,10 @@ const Section_4 = () => {
       </div>
     ),
     12: (
-      <div className=" h-[100%] p-10 flex flex-col justify-between my-auto ">
+      <div className=" h-[100%] p-10 lg:flex lg:flex-col justify-between my-auto ">
         <h1 className=" font-bold text-[20px]">Healthcare and Life Sciences</h1>
-        <div className="flex w-full gap-3 justify-between">
-          <div className="w-[50%]">
+        <div className="flex flex-col lg:flex  lg:flex-row w-full gap-3 justify-between">
+          <div className="w-[100%] lg:w-[50%]">
             <h2 className=" font-semibold">
               Build Empathy Into Every Innovation
             </h2>
@@ -508,8 +558,13 @@ const Section_4 = () => {
               </li>
             </ul>
           </div>
-          <div cclassName="w-[50%]">
-            <img src={img_12} alt="img-12" loading="lazy" />
+          <div cclassName="w-[100%] lg:w-[50%] ">
+            <img
+              src={img_12}
+              alt="img-12"
+              loading="lazy"
+              className="w-[100%] lg:w-fit"
+            />
           </div>
         </div>
         <div className="flex justify-between">
@@ -528,19 +583,19 @@ const Section_4 = () => {
   };
 
   return (
-    <div className="container overflow-hidden pb-10">
-      <div className=" w-[78%] pt-10 h-[130px] text-[32px] font-bold flex mx-auto mt-5  ">
+    <div className="overflow-hidden pb-10 ">
+      <div className=" w-[78%] pt-10 h-[130px] text-[16px] lg:text-[32px] font-bold flex mx-auto mt-5  ">
         <h1>Designed to meet your unique needs.</h1>
       </div>
-      <div className="flex w-[78%] mx-auto gap-3  ">
-        <div className=" w-[800px] h-auto border-[2px] border-black rounded-lg">
+      <div className="lg:flex  w-[100%] lg:w-[78%] mx-auto gap-3  ">
+        <div className=" w-fit lg:w-[800px] h-auto border-[2px] border-black rounded-lg">
           <div className=" h-[90%] flex my-auto items-center mt-10 justify-between transition-all duration-200 ease-in-out ">
             {contents[activeButton]}
           </div>
         </div>
 
-        <div className="w-[27%]  overflow-y-auto  ">
-          <div className="space-y-2">
+        <div className="w-[100%] lg:w-[27%]  overflow-y-auto">
+          <div className=" grid grid-cols-2 gap-2 py-10 px-10 lg:space-y-2 lg:grid-cols-1 lg:py-0 lg:px-0">
             {buttons.map((button) => (
               <button
                 key={button.id}

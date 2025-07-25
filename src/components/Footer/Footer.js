@@ -29,11 +29,11 @@ const Footer = () => {
   };
 
   return (
-    <div className="container overflow-hidden bg-custom-color pt-10 relative">
-      <div className=" flex p-6 w-[80%] mx-auto gap-5 ">
-        <div className="flex flex-col w-[20%] gap-8 ">
-          <img src={logo} alt="logo" />
-          <div className="flex  overflow-hidden justify-between">
+    <div className=" overflow-hidden bg-custom-color pt-10 relative">
+      <div className=" lg:flex lg:flex-row lg:p-6 w-[100%] lg:w-[80%] lg:mx-auto lg:gap-5 p-6 gap-8 flex flex-col">
+        <div className="flex flex-col lg:w-[20%] w-[50%] lg:gap-8 gap:10  ">
+          <img src={logo} alt="logo" className="w-fit" />
+          <div className="flex  overflow-hidden lg:justify-between gap-4 lg:gap-0">
             <div className="w-[40px] h-[40px] rounded-full border-[1px] border-white flex justify-center items-center">
               <FaLinkedinIn size={20} color="white" />
             </div>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex mx-auto text-white w-[25%]  flex-col gap-3 ">
+        <div className="flex mx-auto text-white w-full lg:w-[25%]  flex-col gap-3  ">
           <div>
             <h2 className=" font-semibold">Research Methods</h2>
           </div>
@@ -64,7 +64,7 @@ const Footer = () => {
             <p className=" cursor-pointer hover:underline">Quality checks</p>
           </div>
         </div>
-        <div className="flex mx-auto text-white w-[25%]  flex-col gap-3 ">
+        <div className="flex mx-auto text-white w-full lg:w-[25%]  flex-col gap-3  ">
           <div>
             <h2 className=" font-semibold">Capabilites</h2>
           </div>
@@ -81,7 +81,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="flex mx-auto text-white w-[25%]  flex-col gap-3 ">
+        <div className="flex mx-auto text-white w-full lg:w-[25%]  flex-col gap-3  ">
           <div>
             <h2 className=" font-semibold">Legal</h2>
           </div>
@@ -96,7 +96,7 @@ const Footer = () => {
             <p className=" cursor-pointer hover:underline">Site Disclaimer</p>
           </div>
         </div>
-        <div className="flex mx-auto text-white w-[25%]  flex-col gap-3 ">
+        <div className="flex mx-auto text-white w-full lg:w-[25%]  flex-col gap-3 ">
           <div>
             <h2 className=" font-semibold">Connect</h2>
           </div>

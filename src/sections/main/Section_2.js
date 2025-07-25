@@ -34,12 +34,16 @@ const Section_2 = () => {
   };
 
   return (
-    <div className="w-full flex md:w-full lg:w-full  ">
-      <div className="w-[90%] md:w-[90%] lg:w-[90%] lg:flex justify-center pt-10 pb-10  ">
-        <div className="w-[50%]  flex mx-auto lg:justify-center pl-10 ">
-          <img src={section_2Img} alt="sec-2" className="w-[550px] h-[430px]" />
+    <div className="w-full flex md:w-full lg:w-full xl:w-full  ">
+      <div className="w-[90%] md:w-[90%] lg:w-[90%] lg:flex xl:w-[90%] xl:flex justify-center pt-10 pb-10  mx-auto lg:mx-0 xl:m-0 ">
+        <div className="w-[100%]  lg:w-[50%]  flex lg:mx-auto lg:justify-center pl-10 ">
+          <img
+            src={section_2Img}
+            alt="sec-2"
+            className=" w-[300px] h-[300px] lg:w-[550px] lg:h-[430px]"
+          />
         </div>
-        <div className="w-[40%] grid grid-cols-1 mx-auto lg:grid-cols-2 gap-10 ">
+        <div className="w-[40%] grid grid-cols-1 md:grid-cols-1 mx-9 lg:mx-0 lg:grid-cols-2  gap-10 ">
           {data.map((res) => {
             return (
               <div className="group w-[256px] h-[304px] transition-colors cursor-pointer bg-white duration-300 ease-in-out hover:bg-[#E8505E]  border-[2px] border-black rounded-lg p-3 relative">

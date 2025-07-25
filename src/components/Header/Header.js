@@ -210,7 +210,7 @@ const Header = () => {
         </div>
       </div>
       <div className="flex bg-[#FBEEEE] text-black px-6 py-3 relative lg:hidden  ">
-        <VscThreeBars size={50} color="black" />
+        <VscThreeBars size={30} color="black" />
       </div>
     </>
   );
