@@ -10,7 +10,7 @@ const Section_3 = () => {
         </h1>
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4  overflow-hidden">
         <div className=" w-[78%]  lg:flex lg:mx-auto   mx-auto">
           <div className="w-[380px] lg:w-[370px] h-[379px] bg-section-1-bg p-10 flex flex-col gap-2 rounded">
             <h2 className="font-semibold lg:text-[16px]">

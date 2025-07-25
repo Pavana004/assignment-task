@@ -588,7 +588,7 @@ const Section_4 = () => {
         <h1>Designed to meet your unique needs.</h1>
       </div>
       <div className="lg:flex  w-[100%] lg:w-[78%] mx-auto gap-3  ">
-        <div className=" w-fit lg:w-[800px] h-auto border-[2px] border-black rounded-lg">
+        <div className=" w-fit mx-auto lg:mx-0 lg:w-[800px] h-auto border-[2px] border-black rounded-lg">
           <div className=" h-[90%] flex my-auto items-center mt-10 justify-between transition-all duration-200 ease-in-out ">
             {contents[activeButton]}
           </div>
