@@ -98,7 +98,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="hidden bg-[#FBEEEE] text-black px-6 py-3 relative lg:flex justify-center">
+      <div className="hidden bg-[#FBEEEE] text-black px-6 py-3 relative lg:flex justify-center overflow-hidden">
         <div className=" md:flex space-x-6 items-center">
           {menuItems.map((item) => (
             <div key={item.title} className="">

@@ -34,7 +34,7 @@ const Section_2 = () => {
   };
 
   return (
-    <div className="w-full flex md:w-full lg:w-full xl:w-full  ">
+    <div className="w-full flex md:w-full lg:w-full xl:w-full overflow-hidden ">
       <div className="w-[90%] md:w-[90%] lg:w-[90%] lg:flex xl:w-[90%] xl:flex justify-center pt-10 pb-10  mx-auto lg:mx-0 xl:m-0 ">
         <div className="w-[100%]  lg:w-[50%]  flex lg:mx-auto lg:justify-center pl-10 ">
           <img

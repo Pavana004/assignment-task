@@ -18,10 +18,10 @@ const Section_1 = () => {
       <SwiperSlide className=" relative">
         <img src={carousel_1} alt="c-1" />
         <div
-          className=" absolute w-[700px] left-[50%] top-[40%] text-[48px] font-bold transition-all duration-300 transform origin-top
+          className=" absolute w-[200px] lg:w-[700px] left-[50%] top-[40%] text-[20px] lg:text-[48px] font-bold transition-all duration-300 transform origin-top
                animate-carousel_ani  "
         >
-          <h1 className="text-left">
+          <h1 className="text-left ">
             A Fresh Approach to Market Research
             <span className="text-[#E8505E]">.</span>
           </h1>

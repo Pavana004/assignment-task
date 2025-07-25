@@ -2,7 +2,7 @@ import React from "react";
 
 const Section_3 = () => {
   return (
-    <div className=" w-full md:w-full lg:w-full xl:full  lg:h-[993px] bg-[#ECECEC] lg:overflow-hidden">
+    <div className=" w-full md:w-full lg:w-full xl:full  lg:h-[993px] bg-[#ECECEC] lg:overflow-hidden overflow-hidden">
       <div className=" w-[78%] pt-10 h-[180px] text-[16px] lg:text-[32px] font-bold flex mx-auto  ">
         <h1 className="">
           We're a full-service B2B market research thought partner committed to
