@@ -114,16 +114,16 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <div className="mx-auto ">
+      <div className="mx-auto overflow-hidden ">
         <div className="px-10 py-4 sm:px-6 lg:px-2 max-w-7xl w-full justify-between flex mx-auto  ">
-          <div className="flex gap-2 text-white  items-center px-12  ">
+          <div className="flex gap-2 text-white  items-center px-14  ">
             <img src={Copyright} alt="logo" className="w-[14px] h-[14px]" />
             <p className="text-[12px]">
               Copyright 2025. All Rights Reserved.51
             </p>
           </div>
 
-          <div className="  w-[56px] h-[40px] bg-white hover:bg-red-500 hover:text-white opacity-30  flex justify-center items-center ">
+          <div className="w-[56px] h-[40px] bg-white hover:bg-red-500 hover:text-white opacity-30  flex justify-center items-center ">
             {isVisible && (
               <SlArrowUp
                 size={40}
