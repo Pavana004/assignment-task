@@ -98,8 +98,8 @@ const Header = () => {
 
   return (
     <>
-      <div className="hidden bg-[#FBEEEE] text-black px-6 py-3 relative lg:flex justify-center overflow-hidden">
-        <div className=" md:flex space-x-6 items-center">
+      <div className=" bg-[#FBEEEE] relative">
+        <div className="hidden mx-auto px-4 sm:px-6 lg:p-8 max-w-7xl w-full lg:flex flex-col lg:flex-row lg:justify-evenly ">
           {menuItems.map((item) => (
             <div key={item.title} className="">
               <button

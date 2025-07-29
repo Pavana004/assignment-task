@@ -11,12 +11,12 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/bundle";
+import ResponsivePage from "./sections/main/Responsive";
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="">
       <Header />
-
       <main>
         <Section_1 />
         <Section_2 />
@@ -24,7 +24,6 @@ function App() {
         <Section_4 />
         <Section_5 />
       </main>
-
       <Footer />
     </div>
   );

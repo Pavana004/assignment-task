@@ -7,33 +7,37 @@ import carousel_3 from "../../assets/images/c-3.png";
 
 const Section_1 = () => {
   return (
-    <Swiper
-      modules={[Pagination, Autoplay, EffectFade]}
-      slidesPerView={1}
-      effect={"fade"}
-      pagination={{ clickable: true }}
-      autoplay={{ delay: 1000 }}
-      className="swiperCustomCss"
-    >
-      <SwiperSlide className=" relative">
-        <img src={carousel_1} alt="c-1" />
-        <div
-          className=" absolute w-[200px] lg:w-[700px] left-[50%] top-[40%] text-[20px] lg:text-[48px] font-bold transition-all duration-300 transform origin-top
-               animate-carousel_ani  "
+    <div className="  bg-[#FBEEEE] pt-10 pb-10">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl w-full flex flex-col lg:flex-row lg:justify-evenly">
+        <Swiper
+          modules={[Pagination, Autoplay, EffectFade]}
+          slidesPerView={1}
+          effect={"fade"}
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 1000 }}
+          className="swiperCustomCss"
         >
-          <h1 className="text-left ">
-            A Fresh Approach to Market Research
-            <span className="text-[#E8505E]">.</span>
-          </h1>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={carousel_2} alt="c-2" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={carousel_3} alt="c-3" />
-      </SwiperSlide>
-    </Swiper>
+          <SwiperSlide className=" relative">
+            <img src={carousel_1} alt="c-1" />
+            <div
+              className=" absolute w-[200px] lg:w-[700px] left-[50%] top-[40%] text-[20px] lg:text-[48px] font-bold transition-all duration-300 transform origin-top
+               animate-carousel_ani  "
+            >
+              <h1 className="text-left ">
+                A Fresh Approach to Market Research
+                <span className="text-[#E8505E]">.</span>
+              </h1>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={carousel_2} alt="c-2" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={carousel_3} alt="c-3" />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </div>
   );
 };
 

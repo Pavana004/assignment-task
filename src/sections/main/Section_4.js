@@ -583,32 +583,34 @@ const Section_4 = () => {
   };
 
   return (
-    <div className="overflow-hidden pb-10 ">
-      <div className=" w-[78%] pt-10 h-[130px] text-[16px] lg:text-[32px] font-bold flex mx-auto mt-5  ">
-        <h1>Designed to meet your unique needs.</h1>
-      </div>
-      <div className="lg:flex  w-[100%] lg:w-[78%] mx-auto gap-3  ">
-        <div className=" w-fit mx-auto lg:mx-0 lg:w-[800px] h-auto border-[2px] border-black rounded-lg">
-          <div className=" h-[90%] flex my-auto items-center mt-10 justify-between transition-all duration-200 ease-in-out ">
-            {contents[activeButton]}
-          </div>
+    <div className=" mx-auto  pt-8 pb-10 ">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl w-full flex flex-col lg:flex-col lg:justify-evenly ">
+        <div className=" px-10 h-[180px] text-[16px] lg:text-[28px] xl:text-[32px] font-bold flex  items-center ">
+          <h1>Designed to meet your unique needs.</h1>
         </div>
+        <div className="  px-10 lg:flex justify-between gap-4">
+          <div className=" w-fit mx-auto lg:mx-0 lg:w-[800px] h-auto border-[2px] border-black rounded-lg">
+            <div className=" h-[90%] flex my-auto items-center mt-10 justify-between transition-all duration-200 ease-in-out ">
+              {contents[activeButton]}
+            </div>
+          </div>
 
-        <div className="w-[100%] lg:w-[27%]  overflow-y-auto">
-          <div className=" grid grid-cols-2 gap-2 py-10 px-10 lg:space-y-2 lg:grid-cols-1 lg:py-0 lg:px-0">
-            {buttons.map((button) => (
-              <button
-                key={button.id}
-                onClick={() => setActiveButton(button.id)}
-                className={`w-[100%] flex items-center justify-center bg-[#ECECEC] hover:bg-[#E8505E] font-semibold px-4 py-3  rounded-md transition-colors duration-200 ${
-                  activeButton === button.id
-                    ? "bg-custom-color text-black text-center"
-                    : ""
-                }`}
-              >
-                {button.label}
-              </button>
-            ))}
+          <div className="overflow-y-auto  lg:w-[30%] ">
+            <div className=" grid grid-cols-2 gap-2 py-10 px-10 lg:space-y-2 lg:grid-cols-1 lg:py-0 lg:px-0">
+              {buttons.map((button) => (
+                <button
+                  key={button.id}
+                  onClick={() => setActiveButton(button.id)}
+                  className={` flex items-center justify-center bg-[#ECECEC] hover:bg-[#E8505E] font-semibold px-4 py-3  rounded-md transition-colors duration-200 ${
+                    activeButton === button.id
+                      ? "bg-custom-color text-black text-center"
+                      : ""
+                  }`}
+                >
+                  {button.label}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>
