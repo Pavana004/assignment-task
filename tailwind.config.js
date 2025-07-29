@@ -31,8 +31,8 @@ module.exports = {
       },
       backgroundImage: {
         "section-1-bg": "url('/src/assets/images/sec-3.png')",
-        "section-2-bg": "url('/src/assets/images/sec-3-1.png')",
-        "section-3-bg": "url('/src/assets/images/sec-3-2.png')",
+        "section-2-bg": "url('/src/assets/images/sec-3-1.svg')",
+        "section-3-bg": "url('/src/assets/images/sec-3-2.svg')",
         "section-4-bg": "url('/src/assets/images/sec-3-4.png')",
         "section-bg": "url('/src/assets/images/bg.png')",
       },

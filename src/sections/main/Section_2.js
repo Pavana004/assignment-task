@@ -67,7 +67,7 @@ const Section_2 = () => {
                   className="w-[75px] h-[40px] bg-[#E8505E] group-hover:bg-white  absolute bottom-0 right-0 rounded flex justify-center items-center"
                 >
                   <svg
-                    className=" text-white group-hover:text-black transition-all duration-300"
+                    className=" text-white group-hover:invert transition-all duration-300"
                     width="36"
                     height="16"
                     viewBox="0 0 36 16"
@@ -81,25 +81,6 @@ const Section_2 = () => {
                     />
                   </svg>
                 </div>
-                {/* <div
-                  onClick={handleNavigate}
-                  className="w-[75px] h-[40px] bg-[#E8505E] group-hover:bg-white  absolute bottom-0 right-0 rounded flex justify-center items-center"
-                >
-                  <svg
-                    className=" text-white group-hover:text-black transition-all duration-300"
-                    width="36"
-                    height="16"
-                    viewBox="0 0 36 16"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M26.3359 14.7951L32.1309 9.00007L0.0449219 9.00007L0.0449219 7.00007L32.1309 7.00007L26.3359 1.20507L27.75 -0.205078L35.955 7.99992L27.75 16.2049L26.3359 14.7951Z"
-                      fill="white"
-                    />
-                  </svg>
-                
-                </div> */}
               </div>
             );
           })}
