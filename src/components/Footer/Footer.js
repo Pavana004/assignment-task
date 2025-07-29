@@ -29,8 +29,8 @@ const Footer = () => {
   };
 
   return (
-    <div className=" mx-auto  pt-10 pb-10 bg-custom-color ">
-      <div className=" px-10 sm:px-6 lg:px-8 max-w-7xl w-full   flex mx-auto flex-col relative">
+    <div className=" mx-auto  pt-10 pb-10 bg-custom-color relative ">
+      <div className=" px-10 sm:px-6 lg:px-8 max-w-7xl w-full   flex mx-auto flex-col relative ">
         <div className="px-10 flex flex-col lg:flex-row  justify-between w-full gap-3 pb-8  ">
           <div className="flex flex-col lg:w-[20%] w-[50%] lg:gap-8 gap:10  ">
             <img src={logo} alt="logo" className="w-fit" />
@@ -112,21 +112,27 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr className="" />
-        <div className="flex gap-2 text-white  p-6 w-[80%]  items-center">
-          <img src={Copyright} alt="logo" className="w-[14px] h-[14px]" />
-          <p className="text-[12px]">Copyright 2025. All Rights Reserved.51</p>
-        </div>
+      </div>
+      <hr />
+      <div className="mx-auto ">
+        <div className="px-10 py-4 sm:px-6 lg:px-2 max-w-7xl w-full justify-between flex mx-auto  ">
+          <div className="flex gap-2 text-white  items-center px-12  ">
+            <img src={Copyright} alt="logo" className="w-[14px] h-[14px]" />
+            <p className="text-[12px]">
+              Copyright 2025. All Rights Reserved.51
+            </p>
+          </div>
 
-        <div className=" absolute w-[56px] h-[40px] bg-white hover:bg-red-500 hover:text-white opacity-30 bottom-3 right-[2%] flex justify-center items-center ">
-          {isVisible && (
-            <SlArrowUp
-              size={40}
-              color="black"
-              className="font-bold cursor-pointer"
-              onClick={handleScrollToTop}
-            />
-          )}
+          <div className="  w-[56px] h-[40px] bg-white hover:bg-red-500 hover:text-white opacity-30  flex justify-center items-center ">
+            {isVisible && (
+              <SlArrowUp
+                size={40}
+                color="black"
+                className="font-bold cursor-pointer"
+                onClick={handleScrollToTop}
+              />
+            )}
+          </div>
         </div>
       </div>
     </div>

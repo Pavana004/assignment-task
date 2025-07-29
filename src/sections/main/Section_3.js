@@ -1,4 +1,5 @@
 import React from "react";
+import arrow from "../../assets/images/Vector _1.svg";
 
 const Section_3 = () => {
   return (
@@ -25,20 +26,12 @@ const Section_3 = () => {
                 insights and robust tracking, we ensure your brand voice
                 connects with the right audience.
               </p>
-              <svg
-                className="w-6 h-6 text-black "
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                />
-              </svg>
+              <img
+                src={arrow}
+                alt="arrow"
+                loading="lazy"
+                className="w-[36px] h-[36px]"
+              />
             </div>
             <div className=" w-[365px] lg:w-[900px] xl:w-[744px] h-[379px] bg-section-2-bg p-10 rounded-sm">
               <div className="w-[300px] lg:w-[400px] xl:w-[366px] flex flex-col gap-2 ">
@@ -52,20 +45,12 @@ const Section_3 = () => {
                   exploring new segments, we provide the insights to make bold,
                   informed moves.
                 </p>
-                <svg
-                  className="w-6 h-6 text-black "
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
+                <img
+                  src={arrow}
+                  alt="arrow"
+                  loading="lazy"
+                  className="w-[36px] h-[36px]"
+                />
               </div>
             </div>
           </div>
@@ -85,20 +70,12 @@ const Section_3 = () => {
                   qualitative and quantitative approaches ensures depth,
                   accuracy, and actionable clarity.
                 </p>
-                <svg
-                  className="w-6 h-6 text-black "
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
+                <img
+                  src={arrow}
+                  alt="arrow"
+                  loading="lazy"
+                  className="w-[36px] h-[36px]"
+                />
               </div>
             </div>
             <div className="w-[361px] h-[379px] bg-section-4-bg p-10 rounded-sm ">
@@ -113,20 +90,12 @@ const Section_3 = () => {
                   align innovation with user expectations — minimizing risk and
                   maximizing relevance.
                 </p>
-                <svg
-                  className="w-6 h-6 text-black "
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M14 5l7 7m0 0l-7 7m7-7H3"
-                  />
-                </svg>
+                <img
+                  src={arrow}
+                  alt="arrow"
+                  loading="lazy"
+                  className="w-[36px] h-[36px]"
+                />
               </div>
             </div>
           </div>

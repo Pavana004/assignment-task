@@ -99,7 +99,7 @@ const Header = () => {
   return (
     <>
       <div className=" bg-[#FBEEEE] relative">
-        <div className="hidden mx-auto px-4 sm:px-6 lg:p-8 max-w-7xl w-full lg:flex flex-col lg:flex-row lg:justify-evenly ">
+        <div className="hidden mx-auto px-4 sm:px-6 lg:p-3 max-w-7xl w-full lg:flex flex-col lg:flex-row gap-3 lg:justify-center">
           {menuItems.map((item) => (
             <div key={item.title} className="">
               <button
@@ -197,7 +197,7 @@ const Header = () => {
           ))}
           <button
             onClick={handleNavigateToStartYourResearch}
-            className="border border-[#E8505E] pl-2 pr-2 w-[200px] h-8 text-[#E8505E]"
+            className="border border-blue-600 pl-2 pr-2 w-[200px] h-8 text-blue-600"
           >
             Start Your Research
           </button>
