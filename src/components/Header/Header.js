@@ -203,7 +203,7 @@ const Header = () => {
           </button>
           <button
             onClick={handleNavigateToJoinAPaidFocusGroup}
-            className="border border-[#E8505E] bg-[#E8505E] text-white pl-2 pr-2 w-[200px] h-8"
+            className=" font-sans border border-[#E8505E] bg-[#E8505E] hover:bg-blue-900 hover:transition-all hover:ease-in-out hover:duration-700 hover:border-none text-white pl-2 pr-2 w-[200px] h-8"
           >
             Join a Paid Focus Group
           </button>
